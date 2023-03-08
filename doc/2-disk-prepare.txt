@@ -1,0 +1,4 @@
+PREPARAZIONE DISCO
+Scaricato immagine 
+wget https://cloud.debian.org/images/cloud/bullseye/latest/debian-11-nocloud-amd64.qcow2
+E messa nella directory extra

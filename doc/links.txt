@@ -1,0 +1,5 @@
+https://libvirt.org/manpages/virsh.html
+https://techviewleo.com/run-debian-11-bullseye-on-kvm-using-qcow2-cloud-image/
+https://wiki.libvirt.org/page/Networking#Altering_the_interface_config
+
+

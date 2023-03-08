@@ -1,0 +1,11 @@
+INSTALLAZIONE PACCHETTI
+Installato:
+	libvirt-clients libvirt-daemon-system virtinst qemu qemu-kvm qemu-system qemu-utils
+	net-tools bridge-utils osinfo-db-tools libosinfo-bin virt-viewer virtinst, libvirt-daemon-config-network
+	libvirt-daemon-driver-storage-gluster libvirt-daemon-system ebtables radvd
+
+Aggiunto l'utente al gruppo libvirt
+	usermod -aG libvirt gianc
+	usermod -aG kvm gianc
+
+

@@ -1,0 +1,19 @@
+PRIMA CONFIGURAZIONE DEL GUEST DOPO L'AVVIO
+Entrare come utente root [digitare root e premere invio (non ha password)]
+
+Mettere pw a root con il comando passwd
+
+Aggiungere un utente con adduser
+
+Rifare la configurazione al server secure shell con il comando
+dpkg-reconfigure openssh-server
+
+Abilitato il login con password del server ssh con vi
+	vi /etc/ssh/sshd_config (Cercare la voce PasswordAuthentication e metterla a yes)
+
+Messo il nome al server modificando /etc/hostname
+	vi /etc/hostname
+
+Ricordarsi di memorizzare l'ip che viene dato alla macchina virtuale
+	con il comando ''ip address'' per connettersi in un secondo momento
+	O configurare anche la rete

@@ -1,0 +1,4 @@
+Fare più macchine da più utenti
+Provare a mettere sh al posto della bash
+Fare doc
+
